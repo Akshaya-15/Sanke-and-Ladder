@@ -16,3 +16,7 @@ private int end_position=100;
 		return 100;
 }
 }
+//UC2 for roll and dice between 1 to 6 
+ class DiceService{
+    private int diceroll() {
+        return new Random().nextInt(6) + 1; 
