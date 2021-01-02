@@ -50,3 +50,30 @@ privte int position2;
 }
 
 
+//UC4 for  player reaches wining position 100
+
+class PlayerService{
+
+private int player_position;
+this.position=player_position;
+}
+public static void main( String[] args )
+	    {
+	        System.out.println( "Let's start the Game with player and position is"+" "+player+" "+"and"+" "+position);
+	       while(position1<100 && position2<100) {
+	        if(value) {
+	        ParticipateTwoPlayer player1= new ParticipateTwoPlayer(position1);
+	        position1= check_option();
+	        value=false;
+	        if(position1==100)
+	        	System.out.println("player1 reaches at 100 and Won the Game");}
+	        else {
+	         ParticipateTwoPlayer player2= new ParticipateTwoPlayer(position2);
+	        position2=check_option();
+	        value=true;
+	        if(position2==100)
+	        	System.out.println("player2 reaches at 100 and Won the Game");}
+
+	    }
+	}
+}
