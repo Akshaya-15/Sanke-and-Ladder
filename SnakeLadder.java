@@ -20,3 +20,33 @@ private int end_position=100;
  class DiceService{
     private int diceroll() {
         return new Random().nextInt(6) + 1; 
+
+//UC3 for player
+
+ class Player {
+
+private int player=2;
+private int dice_num;
+private int position1;
+privte int position2;
+		Random rand = new Random();
+		optionDice = rand.nextInt(3);
+		position1= 0;
+		
+		switch((int) option){
+		case 0:
+			System.out.println("player get ladder");
+			position=position1+dice_num;
+		break;
+		case 1:
+			System.out.println("player gt snake");
+			position = position2 -dice_num;
+						
+		break;
+		case 2:
+			System.out.println("if no play");
+			position=position1;
+}
+}
+
+
